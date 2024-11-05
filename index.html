@@ -11,10 +11,10 @@
       ul {
         margin: 0;
         padding: 0;
-        list-style-type: none;     <! -- Gets rid of the bullet points in the ul -- >
+        list-style-type: none;     /* Gets rid of the bullet points in the ul */
       }
       nav ul {
-        text-align: center;      <! -- Centered nav to center of page -- >
+        text-align: center;      /* Centered nav to center of page */
       }
       li {
         display: inline-block;
@@ -34,18 +34,25 @@
         font-size: 30px;
       }
       .dark-mode {
-  background-color: black;
-  color: white;
-}
+        background-color: black;
+        color: white;
+      }
       section {
-        float: right;
+        float: right; /* Centered nav to center of page */
+        font-size: 15px;
+      }
+      p{
+        font-size: 30px;
+      }
+      p2{
+        font-size: 30px;
       }
     </style>
-    <header>
-      <nav>    <! -- navigator tag  -- >
+    <header> 
+      <nav>    <!-- navigator tag -->
         <ul>
-    <li><a href ="index.html">Home</a></li>
-    <li><a href ="about.html">About</a></li>     <! -- This code created the link for the other pages -- >
+    <li><a href ="index.html">Home</a></li>       
+    <li><a href ="about.html">About</a></li>     <!-- This code created the link for the other pages -->
     <li><a href ="contact.html">Contact</a></li>
           </ul>
         </nav>
@@ -55,14 +62,18 @@
       <h1>
         Home
       </h1>
-    <strong>Welcome! My name is Leonardo Barranco!</strong>    <! -- strong is what bolds the words -- >
-    I was born in Venezuela
+      <p>
+    <strong>Welcome! My name is Leonardo Barranco!</strong>    <!-- strong is what bolds the words -->
+  </p>
+    <p2>
+     <strong>Here is my website project!</strong>
+    </p2>
   
   </body>
   <section>
 
   <h2>Toggle Dark</h2>
-  <p>Click the button if you want the screen to go black instead of looking at Venezuelas colors.</p>
+  <p3>Click the button if you want the screen to go black instead of looking at Venezuelas colors.</p3>
 
   <button onclick="myFunction()">Toggle dark mode</button>
 
