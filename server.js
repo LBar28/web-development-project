@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
-// Middleware to parse incoming JSON and URL-encoded form data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
