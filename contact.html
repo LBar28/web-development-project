@@ -35,6 +35,14 @@
         text-align: center;
         font-size: 20px;
       }
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      section {
+        float: right; /* Centered nav to center of page */
+        font-size: 15px;
+      }
     </style>
   </head>
   <body>
@@ -74,5 +82,20 @@
       </form>
   </div>
   </body>
+  <section>
+
+  <h2>Toggle Dark</h2>
+  <p3>Click the button if you want the screen to go black instead of looking at Venezuelas colors.</p3>
+
+  <button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</section>
 </html>
 
