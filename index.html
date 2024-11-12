@@ -45,13 +45,15 @@
       }
       p{
         font-size: 30px;
-      }
-      p2{
-        font-size: 30px;
+        text-align: center;
+
       }
       .image-container {
-        float: right; 
-        margin-left: 10px;
+         display: flex; /* Use Flexbox for layout */
+        justify-content: center; /* Center the images */
+        align-items: center; /* Center images vertically */
+        margin: 20px 0; /* Margin around the image container */
+        flex-wrap: wrap; /* Allow wrapping for responsiveness */
       img {
         max-width: 25%; /* Limit max width for responsiveness */
         height: auto; /* Maintain aspect ratio */
@@ -74,12 +76,9 @@
         Home
       </h1>
       <p>
-    <strong>Welcome! My name is Leonardo Barranco!</strong>    <!-- strong is what bolds the words -->
-  </p>
-    <p2>
-     <strong>Here is my website project!</strong>
-    </p2>
-  
+        <strong>Welcome! My name is Leonardo Barranco!<br></strong> <!-- strong is what bolds the words -->
+        <strong>Here is my website project!</strong>
+     </p>
   </body>
     <div class ="image-container">
          <img src="Me.jpg" alt="Myself">
